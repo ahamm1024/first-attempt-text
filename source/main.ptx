@@ -82,7 +82,7 @@
         </p>
         <exercises xml:id="exercises-chapter-one">
           <exercisegroup>
-          <title>A</title>
+          <title>A. Motivating Questions</title>
           <introduction>
             <p>
               In a class consisting of ten students, how many ways can...
@@ -106,6 +106,13 @@
           <statement>
             <p>
               letter grades (A-F) be assigned?
+            </p>
+          </statement>
+          </exercise>
+          <exercise>
+          <statement>
+            <p>
+              the grade distribution look?
             </p>
           </statement>
           </exercise>
