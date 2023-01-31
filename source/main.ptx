@@ -46,27 +46,27 @@
       </colophon>
     </frontmatter>
 
-    <chapter xml:id="chapter-title">
+    <chapter xml:id="ch-one-introduction">
       <title>An Introduction to Counting</title>
 
-      <section xml:id="section-title">
+      <section xml:id="sec-basic-questions">
         <title>The Basic Questions</title>
         <p>The three basic questions of combinatorics are:
         
         <ul>
           <li>
             <p>
-              Enumerative Type: "How many...?"
+              Enumerative Type: <q>How many...?</q>
             </p>
           </li>
           <li>
             <p>
-              Existence Type: "Is/Are there...?"
+              Existence Type: <q>Is/Are there...?</q>
             </p>
           </li>
           <li>
             <p>
-              Extremal Type: "What is the largest/smallest...?"
+              Extremal Type: <q>What is the largest/smallest...?</q>
             </p>
           </li>
         </ul>
@@ -122,6 +122,48 @@
 
     </chapter>
 
+    <chapter xml:id="ch-two-enumeration">
+      <title>Basic Enumeration</title>
+      <p>
+        In this chapter will explore basic counting ideas.
+      </p>
+      <section xml:id="sec-two-one-product-rule">
+        <title>The Product Rule</title>
+        <p>
+          Before stating the main counting idea for this section, we will start with a definition.
+        </p>
+        <definition xml:id="def-bit-string">
+          <statement>
+            <p>
+              A <term>bit string</term> of length <m>n</m> is an element of <m>\{ 0,1\}^n</m>.
+            </p>
+          </statement>
+        </definition>
+        <p>
+          Note that <m>\{ 0,1\}^n</m> is the usual Cartesian product of <m>\{ 0,1\}</m> with itself <m>n</m> times.  
+          The elements of <m>\{ 0,1\}^n</m> are sequences consisting of <m>n</m> <m>0</m>'s and/or <m>1</m>'s.
+        </p>
+        <p>
+          With this definition in hand, one natural question is the following.
+        </p>
+        <example xml:id="ex-bit-string-length-seven">
+          How many bit strings of length <m>7</m> are there?
+        </example>
+        <p>
+          In order to be able to address this question, we first need to introduce the key counting technique for the section.
+        </p>
+        <theorem xml:id="thm-product-rule">
+          <statement>
+            <p>
+              Suppose that a configuration results from making a sequence of <m>k</m> choices.  
+              Furthermore, suppose that for each <m>i</m>, choice <m>i</m> has <m>n_i</m> options available no matter what was selected in previous choices.  
+              Then there are <m>n_1\cdot n_2\cdots n_k</m> total configurations.
+            </p>
+          </statement>
+        </theorem>
+        
+      </section>
+    </chapter>
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
 
