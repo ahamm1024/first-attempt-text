@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <macros>
+      \newcommand{\R}{\mathbb R}
+    </macros>
+    <latax-image-preamble>
+      \usepackage{tikz}
+    </latax-image-preamble>
+  </docinfo>
+
+  <book xml:id="my-great-book">
+    <title>A First Course in Combinatorics</title>
+    <subtitle></subtitle>
+
+    <frontmatter xml:id="frontmatter">
+      <titlepage>
+        <author>
+          <personname>Arran Hamm</personname>
+          <department>Mathematics</department>
+          <institution>Winthrop University</institution>
+        </author>
+        <date>
+          <today />
+        </date>
+      </titlepage>
+
+      <colophon>
+
+        <website>
+          <name>
+            <c>example.org</c>
+          </name>
+          <address>https://example.org</address>
+        </website>
+
+        <copyright>
+          <year>2020<ndash />2023</year>
+          <holder>You</holder>
+          <shortlicense> 
+            This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+          </shortlicense>
+        </copyright>
+      </colophon>
+    </frontmatter>
+
+    <chapter xml:id="chapter-title">
+      <title>An Introduction to Counting</title>
+
+      <section xml:id="section-title">
+        <title>The Basic Questions</title>
+        <p>The three basic questions of combinatorics are:
+        
+        <ul>
+          <li>
+            <p>
+              Enumerative Type: "How many...?"
+            </p>
+          </li>
+          <li>
+            <p>
+              Existence Type: "Is/Are there...?"
+            </p>
+          </li>
+          <li>
+            <p>
+              Extremal Type: "What is the largest/smallest...?"
+            </p>
+          </li>
+        </ul>
+        </p>
+        <p>
+          While these three question types are central to combinatorics, they appear throughout all of mathematics.  
+          In Calculus and Analysis we encounter existence questions and extremal questions, through, for example, the Intermediate Value Theorem and the Extreme Value Theorem, respectively.  
+          It's worth noting that we essentially only encounter enumerative questions in Combinatorics and so we will spend the vast majority of our time exploring these kinds of questions.  
+          We will, of course, investigate some existence and extremal questions as well.
+        </p>
+        <p>
+          To warm up, without looking ahead in the text, give the following exercises a try.
+        </p>
+        <exercises xml:id="exercises-chapter-one">
+          <exercisegroup>
+          <title>A</title>
+          <introduction>
+            <p>
+              In a class consisting of ten students, how many ways can...
+            </p>
+          </introduction>
+          <exercise>
+          <statement>
+            <p>
+              the students form a single-file line?
+            </p>
+          </statement>
+          </exercise>
+          <exercise>
+          <statement>
+            <p>
+              one study group consisting of four students be formed?
+            </p>
+          </statement>
+          </exercise>
+          <exercise>
+          <statement>
+            <p>
+              letter grades (A-F) be assigned?
+            </p>
+          </statement>
+          </exercise>
+          </exercisegroup>
+        </exercises>
+      </section>
+
+    </chapter>
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <colophon>
+        <p> This book was authored in <pretext />. </p>
+      </colophon>
+
+    </backmatter>
+
+  </book>
+</pretext>
