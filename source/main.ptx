@@ -161,7 +161,77 @@
             </p>
           </statement>
         </theorem>
-        
+        <p>
+          Notice that if we have appropriately defined <q>configuration</q> in the context of our problem, then when we apply the Product Rule we will answer the counting question.
+        </p>
+        <solution>
+          <title>to <xref ref="ex-bit-string-length-seven"/></title>
+            <p>
+              We can let <q>configuration</q> mean <q>bit string of length 7</q>.  
+              The choices we need to make in ordre to have a configuration are the 7 individual entries in the bit string.  
+              Once each of these entries is decided we then, and only then, possess an actual bit string of length 7; this matches the use of the term choice in the Product Rule.  
+              The remaining task is to decide how many options are available for each choice.  
+              Since we're constructing a bit string, we can see that the options for each entry in the bit string come from the set <m>\{ 0,1\}</m>.  
+              We can visualize this in the following way.
+              <tabular>
+                <row>
+                  <cell bottom="medium" halign="center">2 OA</cell>
+                  <cell></cell>
+                  <cell bottom="medium" halign="center">2 OA</cell>
+                  <cell></cell>
+                  <cell bottom="medium" halign="center">2 OA</cell>
+                  <cell></cell>
+                  <cell bottom="medium" halign="center">2 OA</cell>
+                  <cell></cell>
+                  <cell bottom="medium" halign="center">2 OA</cell>
+                  <cell></cell>
+                  <cell bottom="medium" halign="center">2 OA</cell>
+                  <cell></cell>
+                  <cell bottom="medium" halign="center">2 OA</cell>
+                </row>
+                <row>
+                  <cell>Choice 1</cell>
+                  <cell></cell>
+                  <cell>Choice 2</cell>
+                  <cell></cell>
+                  <cell>Choice 3</cell>
+                  <cell></cell>
+                  <cell>Choice 4</cell>
+                  <cell></cell>
+                  <cell>Choice 5</cell>
+                  <cell></cell>
+                  <cell>Choice 6</cell>
+                  <cell></cell>
+                  <cell>Choice 7</cell>
+                </row>
+              </tabular>
+            </p>
+        </solution>
+        <p>
+          Before proceeding to the next example, we will pause for a couple of remarks.  
+          First, for the duration of this text, the words choice and option will not be used interchangeably.  
+          This conscious decision by the authors is meant to prevent conceptual mix-ups in applications of the Product Rule.  
+        </p>
+        <p>
+          Improtantly, we remark that the Product Rule uses <q>active counting</q> as its counting strategy as opposed to <q>passive counting</q>.  
+          The distinction between these two types of counting is: in passive counting the objects being counted have been preconstructed (possibly by someone else); our objective is to then count these objects one-at-a-time (as if on our fingers and toes).  
+          In active counting, we <q>create</q> the objects being counted by making a sequence of choices with completed objects not appearing until after the final choice is made.
+          We will no proceed with another example.
+        </p>
+        <example xml:id="ex-bsseven-palindrome">
+          <statement>
+            <p>
+              How many bit strings of length 7 are palindromes?
+            </p>
+          </statement>
+          <solution>
+            <title>to <xref ref="ex-bsseven-palindrome"/></title>
+            <p>
+              This answer will look similar to the solution to <xref ref="ex-bit-string-length-seven"/>.  
+              We will let configuration mean <q>bit string of length 7 which is a palindrome</q> and will again view configurations as the result of making 7 choices. 
+            </p>
+          </solution>
+        </example>
       </section>
     </chapter>
     <backmatter xml:id="backmatter">
